@@ -214,7 +214,7 @@ img {
   border-bottom: 5px solid #101529;
   padding: 15px;
   width: 100%;
-  margin-top: -1px;
+  margin-top: -1px;  
 }
 .event_info {
   display: flex;
