@@ -44,7 +44,7 @@ a:hover {
 .header li {
   float: left;
   text-align: center;
-  width: 135px;
+  width: 126px;
   height: 30px;
   border-right: 1px solid #6f7179;
 }
@@ -60,7 +60,7 @@ a:hover {
 }
 .container {
   width: 100%;
-  padding-right: 66px;
+  padding-right: 5px;
   padding-left: 5px;
   margin-right: auto;
   margin-left: auto;
