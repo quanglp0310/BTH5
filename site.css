@@ -7,7 +7,7 @@
   --container-full-width: 100%;
   --container-width: 1200px;
 }
-body {
+.h {
   min-height: 1300px;
   background-image: url(images/bg-top.jpg), url(images/bg-bottom.jpg);
   background-size: 100%;
@@ -17,6 +17,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: white;
+  max-width: 1300px;
+  margin-top: -36px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 a {
   color: var(--primary-color);
@@ -46,6 +51,7 @@ a:hover {
   text-align: center;
   width: 117px;
   height: 30px;
+  color: #fff;
   border-right: 1px solid #6f7179;
 }
 .header-menu-right li:first-child {
