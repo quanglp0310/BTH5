@@ -59,12 +59,14 @@ a:hover {
   margin-top: 10px;
 }
 .container {
-  max-width: 1000px;
   width: 100%;
-  padding-right: 56px;
-  padding-left: 40px;
+  padding-right: 5px;
+  padding-left: 5px;
   margin-right: auto;
   margin-left: auto;
+}
+.row, .container{
+  max-width: 1000px;
 }
 .row {
   display: flex;
@@ -184,7 +186,7 @@ img {
 }
 .menu_news {
   background: url(./images/news-header-bg.png) no-repeat top center;
-  width: 743px;
+  width: 100%;
   height: 65px;
   list-style: none;
   margin-top: 5px;
@@ -211,7 +213,8 @@ img {
   border-right: 5px solid #101529;
   border-bottom: 5px solid #101529;
   padding: 15px;
-  width: 743px;margin-top: -1px;
+  width: 100%;
+  margin-top: -1px;
 }
 .event_info {
   display: flex;
