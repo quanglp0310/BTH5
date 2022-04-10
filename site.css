@@ -44,7 +44,7 @@ a:hover {
 .header li {
   float: left;
   text-align: center;
-  width: 126px;
+  width: 117px;
   height: 30px;
   border-right: 1px solid #6f7179;
 }
@@ -55,13 +55,13 @@ a:hover {
   border-right: none;
 }
 .container.header-content {
-  max-width: 1350px;
+  max-width: 1102px;
   margin-top: 10px;
 }
 .container {
   width: 100%;
   padding-right: 5px;
-  padding-left: 5px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
